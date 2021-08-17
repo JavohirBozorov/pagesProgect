@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jova.dev</title>
+</head>
+<body>
+<header>
+    <a href="{% url 'home' %}">Bosh sahifa</a>
+    <a href="{% url 'about' %}">Saytimiz haqida</a>
+    <a href="{% url 'settings' %}">Sozlamalar</a>
+    <a href="{% url 'prising' %}">Narxlar</a>
+</header>
+
+{% block content %}
+{% endblock content %}
+
+</body>
+</html>
